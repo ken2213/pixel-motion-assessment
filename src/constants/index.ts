@@ -2,7 +2,7 @@
 export const navigationBarTitles = [
     {
         title: 'home',
-        route: 'home'
+        route: ''
     },
     {
         title: 'inventory',
