@@ -1,9 +1,20 @@
+"use client"
+
 import React from 'react'
+import { motion } from 'framer-motion';
+import { textVariant } from '@/components/animation/motion';
 
 const ContactUs = () => {
   return (
     <div className='bg-violet-900  h-full flex justify-center items-center'>
-      <h1 className='text-[2rem] font-semibold text-violet-200'>Contact Us</h1>
+      <motion.h1 
+        className='text-[2rem] font-semibold text-violet-200'
+        variants={textVariant(0.3)}
+        initial="hidden"
+        animate="show"
+      >
+        Contact Us
+      </motion.h1>
     </div>
   )
 }
