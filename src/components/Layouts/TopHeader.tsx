@@ -13,7 +13,7 @@ const TopHeader = () => {
             <Image 
                 src={honda}
                 alt='Honda Logo'
-                className='w-[70%]'
+                className='w-[50%] md:w-[70%]'
             />
         </div>
 
