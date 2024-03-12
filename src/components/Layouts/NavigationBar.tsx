@@ -14,7 +14,7 @@ import { navigationBarTitles } from '@/constants'
 
 const NavigationBar = () => {
   return (
-    <div className='bg-gray-900 text-white px-4 py-2 md:py-0 md:pl-5 lg:pl-40 xl:pl-0 xl:justify-center fixed w-full flex justify-end md:justify-start'>
+    <div className='bg-[#333333] text-white px-4 py-2 md:py-0 md:pl-5 lg:pl-40 xl:pl-0 xl:justify-center fixed w-full flex justify-end md:justify-start'>
       <DefaultNavigationBar />
     </div>
   )
